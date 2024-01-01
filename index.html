@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume - Document</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+      }
+
+      header {
+        background-color: #3498db;
+        color: #ffffff;
+        text-align: center;
+        padding: 20px;
+      }
+
+      section {
+        max-width: 800px;
+        margin: 20px auto;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      h2 {
+        color: #3498db;
+        border-bottom: 2px solid #3498db;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+      }
+
+      h3 {
+        color: #2c3e50;
+      }
+
+      p {
+        color: #34495e;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      li {
+        margin-bottom: 5px;
+      }
+
+      /* form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+        } */
+
+      label {
+        margin-top: 10px;
+        display: block;
+        margin-bottom: 5px;
+        color: #2c3e50;
+      }
+
+      input {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        transition: border-color 0.3s;
+      }
+
+      input:focus {
+        border-color: #3498db;
+      }
+
+      button {
+        margin-top: 10px;
+        background-color: #3498db;
+        color: #ffffff;
+        padding: 12px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        width: 100%;
+      }
+
+      button:hover {
+        background-color: #2980b9;
+      }
+      .image-container {
+        /* text-align: center; */
+        margin-top: 20px;
+        display: flex;
+        align-items: start;
+      }
+
+      .user-image {
+        max-width: 175px;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h2>Contact Information</h2>
+      <div class="image-container">
+        <img src="./images/user.jpeg" alt="User Image" class="user-image" />
+        <address style="margin-left: 10px">
+          <p>Phone: 03331268198</p>
+          <p>
+            Email:
+            <a href="mailto:mhassankhanmv@gmail.com">mhassankhanmv@gmail.com</a>
+          </p>
+          <p>
+            Linkedin:
+            <a href="https://www.linkedin.com/in/hassan-khan-0b0508233/"
+              >https://www.linkedin.com/in/hassan-khan-0b0508233/</a
+            >
+          </p>
+          <p>
+            Github:
+            <a href="https://github.com/mhassankhanw3"
+              >https://github.com/mhassankhanw3</a
+            >
+          </p>
+          <p>Address: Dastagir block-14 near by Rizwan Masjid</p>
+        </address>
+      </div>
+    </section>
+
+    <section>
+      <h2>About Me</h2>
+      <p>
+        Experienced Web and App developer proficient in JavaScript, ReactJS,
+        Next.js, and React Native. Dedicated to delivering seamless user
+        experiences and building innovative solutions for web and mobile
+        platforms. Passionate about leveraging technology to drive business
+        success and eager to contribute to transformative projects.
+      </p>
+    </section>
+
+    <section>
+      <h2>Work Experience</h2>
+      <article>
+        <h3>
+          Frontend Developer Intern - Massive Ventures Company (2022-2023)
+        </h3>
+        <p>
+          Proficient in building mobile and web applications using React Native
+          and responsive web applications with ReactJS, Next.js, and other
+          front-end technologies. Created and launched the mobile app
+          "PerfectJodi" using React Native, enabling users to fill out "rishta
+          forms" and connect with potential matches. Involved in end-to-end
+          development on Android and iOS platforms using technologies like React
+          Native, Firebase, Firestore, and UI-Kitten.
+        </p>
+      </article>
+
+      <article>
+        <h3>
+          Android App Developer Intern - CodSoft Virtual Internship (15/8/2023 -
+          15/9/2023)
+        </h3>
+        <p>
+          Developed a social media Quotes app with features such as creating,
+          viewing, deleting, and saving quotes. Implemented user authentication
+          (login and signup) and the ability to share quotes on social media
+          platforms.
+        </p>
+      </article>
+    </section>
+
+    <section>
+      <h2>Personal Projects</h2>
+      <p>
+        In my ecommerce project, I created an admin panel for product and order
+        management and a user-friendly frontend for easy product browsing and
+        purchasing. Integrated with Stripe for secure transactions.
+      </p>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p>Inter in Pre-engineering from 2021 to 2023 from City College</p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>Web developer</li>
+        <li>App developer</li>
+        <li>React</li>
+        <li>Node</li>
+        <li>Next</li>
+        <li>React Native</li>
+        <li>Communication</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Languages</h2>
+      <ul>
+        <li>Urdu (Native language)</li>
+        <li>English</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact Form</h2>
+      <form>
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" name="firstname" required />
+
+        <label for="lastname">Last Name:</label>
+
+        <input type="text" id="lastname" name="lastname" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required />
+
+        <label for="street">Street Address:</label>
+        <input type="text" id="street" name="street" required />
+
+        <label for="street2">Street Address 2:</label>
+        <input type="text" id="street2" name="street2" />
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required />
+
+        <label for="region">Region:</label>
+        <input type="text" id="region" name="region" />
+
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country" required />
+
+        <label for="zipcode">Zip Code:</label>
+        <input type="text" id="zipcode" name="zipcode" required />
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
